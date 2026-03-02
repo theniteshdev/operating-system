@@ -1,2 +1,6 @@
 .vscode
 .git
+cpp/variables-consts/int.cpp
+cpp/variables-consts/int
+cpp-server
+cpp-server.cpp
