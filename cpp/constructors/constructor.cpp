@@ -29,10 +29,25 @@ public:
         laptopSummary();
     };
 };
+// param constructor
+class Chai{
+    public:
+    string chaiName;
+    double chaiInLtr;
+    Chai(string cName, double amountOfChai){
+        chaiName = cName;
+        chaiInLtr = amountOfChai;
+        cout << "Param constructor called." << endl;
+    };
+};
 
 int main()
 {
     // constructor
     Laptop myLaptop;
+
+    // param constructor
+    Chai lemonChai("lemon-chai", 22);
+    cout << lemonChai.chaiName << endl;
     return 0;
 }
